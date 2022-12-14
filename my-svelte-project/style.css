@@ -2,12 +2,13 @@ html,
 body {
     padding: 0;
     margin: 0;
+    box-sizing: border-box;
 }
 
 main {
     display: flex;
     height: 100vh;
-    width: auto;
+    width: 100%;
 }
 
 /*********** MENU ***********/
@@ -45,6 +46,13 @@ main {
 
 .container-moncalendrier {
     height: 100vh;
-    width: 30%;
+    width: 25%;
     background-color: antiquewhite;
+}
+
+/*********** CALENDRIER ***********/
+
+.container-calendrier {
+    width: 70%;
+    height: 100vh;
 }
