@@ -4,6 +4,14 @@ body {
     margin: 0;
 }
 
+main {
+    display: flex;
+    height: 100vh;
+    width: auto;
+}
+
+/*********** MENU ***********/
+
 .container-menu {
     border-right: 2px solid #efefef;
     display: flex;
@@ -30,4 +38,13 @@ body {
 .picto-pro {
     margin-top: 100px;
     min-width: 25px;
+}
+
+
+/*********** MON CALENDRIER ***********/
+
+.container-moncalendrier {
+    height: 100vh;
+    width: 30%;
+    background-color: antiquewhite;
 }
